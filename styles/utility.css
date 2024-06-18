@@ -1,0 +1,14 @@
+.container {
+    --max-width: 70rem;
+    --px-lg: 5rem;
+    width: min(var(--max-width), 100% - var(--px-lg) * 2);
+    margin-inline: auto;
+}
+
+.headline {
+    color: var(--text-headline, #E1624F);
+    font-family: var(--ff-sans);
+    font-size: var(--fs-base);
+    font-weight: var(--fw-bold);
+    text-transform: uppercase;
+}
